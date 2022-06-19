@@ -13,7 +13,8 @@ We primarily used 2 datasets, the first one being CIFAR10 and the second one bei
 Since this problem involved object detection for autonomous vehicles, we wanted to build and train a model that could help us achieve as high of an accuracy as possible. As a result, we utilized multiple algorithms along the way as a means of gauging which one delivered the highest accuracy. Overall there were 4 different ones that we used and those were:
 
 1. 2-layer Convolutional Neural Network
-2. Sliding Window Algorithm
-3. Transfer Learning model
-4. YOLO(DarkNet)
+![](2-Layer%20CNN.png)
+3. Sliding Window Algorithm
+4. Transfer Learning model
+5. YOLO(DarkNet)
 
