@@ -36,8 +36,8 @@ We were still interested in training a CNN that could be fairly confident in its
 
 We then used an algorithm known as YOLO for object detection/classification since we were once again experimenting with different models. We essentially pased an input image into a single-layer deep CNN known as DarkNet that is based on VGG16, and modeled a processor that would give us bounding box predictions based on which objects were present in the frame. Since our model could make detections on different scales, we wanted to extend our algorithm to a real-time situation, which in our case was a video. We were able to fine tune our container and NMS thresholds enough as for the model to be able to filter out bounding boxes and only detect the ones that are sufficiently visible in the frame.
 
-Here's our algorithm being empoyed in a real world scenario:
-![](https://user-images.githubusercontent.com/64874986/174875014-d4f53199-04fd-455c-9b09-9eab42a43fc4.mp4)
+Here's our algorithm being employed in a real world scenario:
+![](https://clideo.com/profile/result/112852343#)
 
 
 
