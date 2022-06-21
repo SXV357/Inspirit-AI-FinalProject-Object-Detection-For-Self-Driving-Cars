@@ -14,6 +14,7 @@ Since this problem involved object detection for autonomous vehicles, we wanted 
 
 1. 2-layer Convolutional Neural Network
 ![](2-Layer%20CNN.png)
+
 We first built a simple 2-layer neural network and trained the model on a cars and trucks dataset for about 20-30 epochs. To check the accuracy of the model, we normalized the data to speed up convergence before fitting it to the network and also converted all class labels into a one-hot encoded vector. Our model achieved an accuracy of almost 96.2% on the training dataset, but only 74.3% on the testing dataset. We observed that the model was overfitting quite a bit, so we wanted to try a different algorithm to check if we could increase the accuracy of the image classifier.
 3. Sliding Window Algorithm
 4. Transfer Learning model
